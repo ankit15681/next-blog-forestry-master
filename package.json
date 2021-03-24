@@ -10,15 +10,21 @@
     "classnames": "2.2.6",
     "date-fns": "2.10.0",
     "gray-matter": "4.0.2",
-    "next": "latest",
+    "next": "^10.0.9",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "remark": "11.0.2",
-    "remark-html": "10.0.0"
+    "remark-html": "10.0.0",
+    "superjson": "^1.7.3"
   },
   "devDependencies": {
+    "babel-plugin-superjson-next": "^0.2.3",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.4.0"
   },
+  "presets": ["next/babel"],
+  "plugins": [
+    "superjson-next"
+  ],
   "license": "MIT"
 }
